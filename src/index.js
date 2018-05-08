@@ -7,7 +7,6 @@ import "./stylesheets/index.scss"
 
 import Header from "./Header";
 import HomePage from './HomePage'
-import BrowsePage from './pages/BrowsePage'
 import BrowsePageWithSidebar from './pages/BrowsePageWithSidebar'
 import SelectListExample from './pages/SelectListExample'
 import FilterPaneExample from './pages/FilterPaneExample'
@@ -29,7 +28,6 @@ const App = () => (
       <main role="main" className='main-content' >
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/browse" component={BrowsePage} />
               <Route exact path="/browse-sidebar" component={BrowsePageWithSidebar} />
               <Route exact path="/select-list-example" component={SelectListExample} />
               <Route exact path="/filter-pane-example" component={FilterPaneExample} />

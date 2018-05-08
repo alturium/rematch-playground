@@ -3,10 +3,23 @@
   "description": "",
   "version": "0.0.0",
   "dependencies": {
-    "react-table": "6.7.0-alpha-0",
-    "react-dom": "15.5.3",
-    "react": "15.5.3",
-    "namor": "1.0.1"
+    "@atlaskit/checkbox": "2.0.1",
+    "@atlaskit/css-reset": "2.0.0",
+    "@atlaskit/dropdown-menu": "4.0.2",
+    "@rematch/core": "0.6.0",
+    "@rematch/loading": "1.0.1",
+    "@rematch/select": "1.0.0",
+    "chance": "latest",
+    "lodash": "4.17.10",
+    "namor": "1.0.1",
+    "prop-types": "latest",
+    "react": "16.3.2",
+    "react-collapsible": "2.2.0",
+    "react-dom": "16.3.2",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-sidebar": "2.3.2",
+    "react-table": "6.8.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
