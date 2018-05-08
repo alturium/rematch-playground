@@ -1,0 +1,21 @@
+
+.fixed-height-data-table .rt-tbody {
+   min-width: 0px !important;
+}
+
+.fixed-height-data-table .rt-thead {
+      min-width: 0px !important;
+      overflow: hidden !important;
+}
+
+.vertical-scrollbar-present {
+  width: calc(100% - 15px) !important;
+}
+
+.ReactTable .rt-thead {
+  overflow-y: scroll;
+}
+
+.ReactTable .rt-tbody {
+  overflow-y: none;
+}

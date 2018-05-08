@@ -1,0 +1,22 @@
+export default [
+{ _id: 1, "selected": false, "item" : "account"},
+{ _id: 2, "selected": false, "item" : "assignment"},
+{ _id: 3, "selected": false, "item" : "communication_channel"},
+{ _id: 4, "selected": false, "item" : "conversation"},
+{ _id: 5, "selected": false, "item" : "course"},
+{ _id: 6, "selected": false, "item" : "course_section"},
+{ _id: 7, "selected": false, "item" : "course_ui_canvas_navigation"},
+{ _id: 8, "selected": false, "item" : "discussion"},
+{ _id: 9, "selected": false, "item" : "enrollment"},
+{ _id: 10, "selected": false, "item" : "external_tool_activation"},
+{ _id: 11, "selected": false, "item" : "file"},
+{ _id: 12, "selected": false, "item" : "grading_period"},
+{ _id: 13, "selected": false, "item" : "group"},
+{ _id: 14, "selected": false, "item" : "module"},
+{ _id: 15, "selected": false, "item" : "quiz"},
+{ _id: 16, "selected": false, "item" : "requests"},
+{ _id: 17, "selected": false, "item" : "score"},
+{ _id: 18, "selected": false, "item" : "submission"},
+{ _id: 19, "selected": false, "item" : "user"},
+{ _id: 20, "selected": false, "item" : "wiki"}
+]

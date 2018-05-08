@@ -1,0 +1,23 @@
+{
+  "name": "rematch-playground",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@atlaskit/checkbox": "2.0.0",
+    "@atlaskit/css-reset": "2.0.0",
+    "@atlaskit/dropdown-menu": "4.0.0",
+    "chance": "1.0.13",
+    "lodash": "4.17.10",
+    "namor": "1.0.1",
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-collapsible": "2.2.0",
+    "react-dom": "16.3.2",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-sidebar": "2.3.2",
+    "react-table": "6.8.2"
+  }
+}

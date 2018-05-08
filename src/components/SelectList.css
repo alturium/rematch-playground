@@ -1,0 +1,14 @@
+
+tbody {
+	border: 0px
+}
+
+.table-sm td, .table-sm th {
+    padding: 0px;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 0px;
+}

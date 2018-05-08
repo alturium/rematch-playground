@@ -1,0 +1,23 @@
+export default {
+  element_name: "Element Name",
+  description: "Description",
+  "data_length": "Data Length",
+  "data_type": "Data Type",
+  alias_names: "Alias Names",
+  api: "API",
+  api_endpoint: "API Endpoing",
+  api_location: "API Location",
+  config_rules_available: "Config Rules Available",
+  "Data_Category ": "Data Category",
+  "Data_Domain ": "Data Domain",
+  date_created: "Date Created",
+  "default_value": "Default Value",
+  element_version: "Element Version",
+  encrypted: "Encrypted",
+  endpoint_description: "Endpoint Description",
+  field_created: "Field Created",
+  field_updated: "Field Updated",
+  glossary_term: "Glossary Term",
+  in_the_report_center: "in_the_report_center",
+  last_updated: "Last Updated"
+};

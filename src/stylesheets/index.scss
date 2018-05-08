@@ -1,0 +1,213 @@
+@import "~normalize.css/normalize.css";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "globals";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+// .footer {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   /* Set the fixed height of the footer here */
+//   height: 60px;
+//   line-height: 60px; /* Vertically center the text there */
+//   background-color: #f5f5f5;
+// }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+// body > .container {
+//   padding: 60px 15px 0;
+// }
+
+// .footer > .container {
+//   padding-right: 15px;
+//   padding-left: 15px;
+// }
+
+// code {
+//   font-size: 80%;
+// }
+
+/* override bootstrap CDN */
+@media (min-width: 800px) {
+  .container{
+      max-width: 100%;
+  }
+}
+
+body {
+  background: $primary-blue url("../public/images/bg.png") no-repeat fixed;
+  margin:0;
+  padding:0;
+  height:100%;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* Margin bottom by footer height */
+  // margin-bottom: 60px;
+  
+  &.apply-modal-open, 
+  &.ReactModal__Body--open {
+    overflow: hidden;
+  }
+}
+
+h1 {
+  color: $primary-blue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #77777A;
+}
+
+main {
+  background-color: $web-background;
+  min-height: 100%;
+  height: 100%;
+  // height: '811px';
+  width: 100%;
+}
+.main-content {
+  padding: 5px 0 5px 0;
+  
+}
+div.error-404 {
+  color: #c11;
+}
+header {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
+}
+.Breadcrumbs span a {
+  color: #0046AD;
+}
+@media (max-width: 767px) {
+  main > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main > .container .main-content {
+    padding: 5px 0 5px 0;
+  }
+}
+@media (min-width: 768px) {
+  main > .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .show-when-xs {
+    display: none;
+  }
+}
+.panel {
+  border-color: #95989A;
+  border-radius: 0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.card-title {
+    margin: 0.75rem;
+}
+
+.dropdown {
+  position: relative;
+  border-width: 2px;
+  font-weight: 700;
+}
+
+@keyframes opacityAnimation {
+  12% {
+    opacity: 0.8;
+  }
+  19.5% {
+    opacity: 0.88;
+  }
+  37.2% {
+    opacity: 0.64;
+  }
+  40.5% {
+    opacity: 0.52;
+  }
+  52.7% {
+    opacity: 0.69;
+  }
+  60.2% {
+    opacity: 0.6;
+  }
+  66.6% {
+    opacity: 0.52;
+  }
+  70% {
+    opacity: 0.63;
+  }
+  79.9% {
+    opacity: 0.6;
+  }
+  84.2% {
+    opacity: 0.75;
+  }
+  91% {
+    opacity: 0.87;
+  }
+}
+
+@keyframes rotationAnimation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+b
+.fluid-datepicker {
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%
+  }
+  .rdt.form-control {
+    border: none;
+    padding: 0;
+  }
+}
+
+.second-nav-submenu {
+  color: black !important;
+  font-weight: 400;
+}
+
+@media (min-width: 992px){
+  .navbar-medium {
+    margin-top: 2.5em;
+  }
+}
+@media (min-width: 767px){
+  .small-show {
+    display: none;
+  }
+}
+@media (max-width: 768px){
+  .navbrand-small {
+    padding-left: 10px;
+  }
+  .small-hide {
+    display: none;
+  }
+}

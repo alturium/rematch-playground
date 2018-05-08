@@ -1,0 +1,15 @@
+#element-title {
+  text-align: right
+}
+
+@media screen  and (max-width: 600px) {
+    #element-title {
+        text-align: left
+    }
+}
+
+body {
+  font-family:  "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+}
