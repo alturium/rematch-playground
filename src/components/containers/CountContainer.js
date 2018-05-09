@@ -21,11 +21,12 @@ const mapState = state => ({
   countBy2: state.countBy2
 })
 
-const mapDispatch = ({ count: {increment, incrementAsync},  countBy2: { increment2, incrementAsync2 } }) => ({
-  increment: () => increment(1),
-  incrementAsync: () => incrementAsync(1),
-  increment2: () => increment2(1),
-  incrementAsync2: () => incrementAsync2(1)
+// const mapDispatch = ({ count: {increment, incrementAsync},  countBy2: { incrementBy2: increment2, incrementAsync2 } }) => ({
+const mapDispatch = dispatch => ({
+  increment: () => dispatch.count.increment(1),
+  incrementAsync: () => dispatch.count.incrementAsync(1),
+  increment2: () => dispatch.countBy2.increment(1),
+  incrementAsync2: () => dispatch.countBy2.incrementAsync(1)
 })
 
 const CountContainer = withRouter(connect(mapState, mapDispatch)(Count))

@@ -20,16 +20,16 @@ export const countBy2 = {
   state: 0, // initial state
   reducers: {
     // handle state changes with pure functions
-    increment2(state, payload) {
+    increment(state, payload) {
       return state + (payload * 2)
     }
   },
   effects: {
     // handle state changes with impure functions.
     // use async/await for async actions
-    async incrementAsync2(payload, rootState) {
+    async incrementAsync(payload, rootState) {
       await new Promise(resolve => setTimeout(resolve, 1000))
-      this.increment2(payload)
+      this.increment(payload)
     }
   }
 }
