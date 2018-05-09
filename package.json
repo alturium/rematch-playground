@@ -16,10 +16,13 @@
     "react": "16.3.2",
     "react-collapsible": "2.2.0",
     "react-dom": "16.3.2",
+    "react-redux": "latest",
     "react-router": "4.2.0",
     "react-router-dom": "4.2.2",
     "react-sidebar": "2.3.2",
-    "react-table": "6.8.2"
+    "react-table": "6.8.2",
+    "redux": "4.0.0",
+    "redux-thunk": "2.2.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"

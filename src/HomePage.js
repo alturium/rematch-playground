@@ -35,6 +35,9 @@ const HomePage = () => (
         <h4>Other Examples </h4>
       </div>
       <div className='h-100' >
+        <RowItem >
+          <a href="/count-container" className="btn btn-default">Count Container (Rematch example)</a>
+        </RowItem > 
       </div>
       
     <Footer />
