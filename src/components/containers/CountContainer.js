@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { withRouter } from 'react-router'
 import { Provider, connect } from 'react-redux'
-
+import { select } from '@rematch/select'
 
 const Count = props => (
   <div>
@@ -13,12 +13,15 @@ const Count = props => (
     The count is {props.countBy2}
     <button onClick={props.increment2}>increment2</button>
     <button onClick={props.incrementAsync2}>incrementAsync2</button>
+
+    The squared count is {props.squared}
   </div>
 )
 
 const mapState = state => ({
   count: state.count,
-  countBy2: state.countBy2
+  countBy2: state.countBy2,
+  squared: select.count.squared(state)
 })
 
 // const mapDispatch = ({ count: {increment, incrementAsync},  countBy2: { incrementBy2: increment2, incrementAsync2 } }) => ({
