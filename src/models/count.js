@@ -1,4 +1,6 @@
 
+import { createSelector } from 'reselect'
+ 
 export const count = {
   name: 'count',
   state: 0, // initial state
@@ -17,6 +19,7 @@ export const count = {
     }
   },
   selectors: {
-    squared: state => state * state
+    squared: state => state * state,
+    squared2: createSelector( state => state * state)
   }
 }
