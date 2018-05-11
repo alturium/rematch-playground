@@ -1,7 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import { init } from '@rematch/core'
 import { Provider, connect } from 'react-redux'
 import store from './store'
 import '@atlaskit/css-reset';
